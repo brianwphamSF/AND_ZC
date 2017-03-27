@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:paddingTop="25dp"
+        android:id="@+id/rlSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/tvName"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvUid"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvName" />
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/ic_edit"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/image_rounded_corner"
+            android:layout_toRightOf="@+id/tvUid"
+            android:layout_toEndOf="@+id/tvUid"/>
+    </RelativeLayout>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ivChangeImg"
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderWidth="5dp"
+        fresco:roundingBorderColor="#fff"
+        android:layout_gravity="center_horizontal"
+        />
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/login_radial"
+    tools:context="zomeapp.com.zomechat.activities.SignUpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#ffffff"
+        android:id="@+id/linearLayout">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilEmailSignUp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/edit_text_default_margin"
+            android:layout_marginStart="@dimen/edit_text_default_margin"
+            android:layout_marginRight="@dimen/edit_text_default_margin"
+            android:layout_marginEnd="@dimen/edit_text_default_margin"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etEmailSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:hint="@string/email_login"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilPasswordSignUp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/edit_text_default_margin"
+            android:layout_marginStart="@dimen/edit_text_default_margin"
+            android:layout_marginRight="@dimen/edit_text_default_margin"
+            android:layout_marginEnd="@dimen/edit_text_default_margin"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPasswordSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/password_login"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/edit_text_default_margin"
+            android:layout_marginStart="@dimen/edit_text_default_margin"
+            android:layout_marginRight="@dimen/edit_text_default_margin"
+            android:layout_marginEnd="@dimen/edit_text_default_margin"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionGo"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:hint="@string/password_confirm"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_sign_up"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:paddingRight="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/btn_ls_actions"
+            android:textColor="@color/coolGrayColor"
+            android:id="@+id/btnSignUp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_of_use"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:textSize="8sp"
+            android:autoLink="web"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/btn_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:padding="5dp"
+        android:background="@drawable/btn_transparent_unpressed"
+        android:id="@+id/btnBack" />
+
+</RelativeLayout>

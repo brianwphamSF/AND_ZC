@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ZomeChat</string>
+    <string name="app_logo">zomechat</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_heart">Heart</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="email_login">Login email</string>
+    <string name="password_login">Password</string>
+    <string name="tv_login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_add_feed">Add Feed</string>
+
+    <string name="hashtag_tv">Use #hashtag to enable others to discover relevant posts.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_post">Post</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_search">Search for #hashtags</string>
+    <string name="title_activity_feed_detail">FeedDetailActivity</string>
+
+    <string name="et_feed_response_hint">Type a response for this feed</string>
+    <string name="et_chat_response_hint">Hit \"Reply\" to send!</string>
+    <string name="btn_reply">Reply</string>
+
+    <string name="btn_report">Report</string>
+    <string name="report_comment">Report This Comment</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="text_copy">copy</string>
+    <string name="first_room_text">Create a specific chatroom?</string>
+    <string name="btn_create">Create</string>
+    <string name="text_room_content">Class, Event, Interest, etc…</string>
+    <string name="hint_chatroom_name">Chatroom name</string>
+    <string name="hint_edit_username">New Username</string>
+    <string name="btn_save">Save</string>
+    <string name="profile_page">Profile</string>
+    <string name="more_page">More</string>
+    <string name="btn_facebook_login">Facebook Login</string>
+    <string name="btn_browse_mode">Browse</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="tv_sign_up">Sign Up</string>
+    <string name="password_confirm">Password Confirm</string>
+    <string name="terms_of_use">By Clicking \"Sign Up\" you agree to our Terms Of Use.\nSee http://www.zomeapp.com/terms.html for more details.</string>
+    <string name="btn_back">Back</string>
+    <string name="text_new_chatroom">New Chatroom</string>
+
+    <string-array name="settings_items">
+        <item>Help</item>
+        <item>Terms and Conditions</item>
+        <item>About Zome</item>
+        <item>Invite Friends</item>
+        <item>Logout</item>
+    </string-array>
+</resources>
